@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Smart Parking Management</string>
+    <string name="title_activity_list_view">activity_listView</string>
+    <string name="country_prompt">Choose a country</string>
+    <string-array name="country_arrays">
+        <item>Ahmedabad</item>
+        <item>Rajkot</item>
+        <item>Surat</item>
+        <item>Baroda</item>
+        <item>Jamnagar</item>
+    </string-array>
+
+    <string name="google_maps_api">AIzaSyDkrCtj4lpsIIaTIvOddnxx7NZvgzvGpzo</string>
+</resources>

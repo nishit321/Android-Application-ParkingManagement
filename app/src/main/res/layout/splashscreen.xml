@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/imgview"
+        android:contentDescription="Logo of Company"
+        android:src="@drawable/logo"
+        app:layout_heightPercent="50%"
+        app:layout_marginLeftPercent="25%"
+        app:layout_marginTopPercent="10%"
+        app:layout_widthPercent="50%" />
+
+    <TextView
+        android:id="@+id/txtname"
+        android:text="Book Your Foot Print"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_widthPercent="100%"
+        app:layout_heightPercent="5%"
+        android:gravity="center"
+        android:textColor="#000000"
+        app:layout_marginTopPercent="60%"
+        />
+
+</android.support.percent.PercentRelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/roadscreen">
+
+    <Button
+        android:id="@+id/buttonleft_1"
+        app:layout_widthPercent="30%"
+        app:layout_heightPercent="20%"
+        app:layout_marginTopPercent="15%"
+        app:layout_marginLeftPercent="13%"
+        android:background="#808080"
+        android:text="Slot 1" />
+
+    <Button
+        android:id="@+id/buttonleft_2"
+        app:layout_widthPercent="30%"
+        app:layout_heightPercent="20%"
+        app:layout_marginTopPercent="5%"
+        app:layout_marginLeftPercent="13%"
+        android:background="#808080"
+        android:layout_below="@+id/buttonleft_1"
+        android:text="Slot 2" />
+
+
+    <Button
+        android:id="@+id/buttonleft_3"
+        app:layout_widthPercent="30%"
+        app:layout_heightPercent="20%"
+        app:layout_marginTopPercent="5%"
+        app:layout_marginLeftPercent="13%"
+        android:background="#808080"
+        android:layout_below="@+id/buttonleft_2"
+        android:text="Slot 3" />
+
+    <Button
+        android:id="@+id/buttonright_1"
+        app:layout_widthPercent="30%"
+        app:layout_heightPercent="20%"
+        app:layout_marginTopPercent="15%"
+        app:layout_marginLeftPercent="57%"
+        android:background="#808080"
+        android:text="Slot 4" />
+
+    <Button
+        android:id="@+id/buttonright_2"
+        android:layout_centerVertical="true"
+        android:background="#808080"
+        android:text="Slot 5"
+        app:layout_marginLeftPercent="57%"
+        app:layout_heightPercent="20%"
+        app:layout_marginTopPercent="5%"
+        app:layout_widthPercent="30%" />
+
+    <Button
+        android:id="@+id/buttonright_3"
+        app:layout_widthPercent="30%"
+        app:layout_heightPercent="20%"
+        app:layout_marginTopPercent="5%"
+        app:layout_marginLeftPercent="57%"
+        android:background="#808080"
+        android:layout_below="@+id/buttonright_2"
+
+        android:text="Slot 6" />
+
+
+
+
+    <TextView
+        android:id="@+id/loaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:text="TextView" />
+
+
+    <Button
+        android:id="@+id/btnbook"
+        app:layout_marginTopPercent="90%"
+        app:layout_marginLeftPercent="0%"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:background="@color/button"
+        android:text="Book Slot" />
+
+
+</android.support.percent.PercentRelativeLayout>
